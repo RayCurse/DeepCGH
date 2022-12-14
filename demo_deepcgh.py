@@ -5,12 +5,9 @@ Created on Mon Jul 13 15:18:10 2020
 
 @author: hoss
 """
-import tensorflow as tf
 from deepcgh import DeepCGH_Datasets, DeepCGH
 import numpy as np
-from glob import glob
-import scipy.io as scio
-from utils import GS3D, display_results, get_propagate
+from utils import display_results, get_propagate
 # Define params
 retrain = True
 frame_path = 'DeepCGH_Frames/*.mat'

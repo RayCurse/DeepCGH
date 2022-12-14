@@ -16,8 +16,6 @@ import warnings
 from skimage.draw import disk, line_aa
 import numpy as np
 from tqdm import tqdm
-import h5py as h5
-from datetime import datetime
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Add, Input, Concatenate, Lambda
 from tensorflow.keras.layers import Conv2D, BatchNormalization

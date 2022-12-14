@@ -22,14 +22,13 @@ Here we provide a Python and Tensorflow implementation of DeepCGH. The current v
 ```
 python 3.x
 tensorflow-gpu >= 2.0.0
-h5py
 scipy
 skimage == 0.19.2
 tqdm
 ```
 If you have Python 3.x (preferably > 3.7), you can easily install package requirements by executing the following command in **Ubuntu** terminal or Anaconda Prompt on **Windows**:
 ```
-pip install tensorflow-gpu==2.3.0 h5py scipy skimage tqdm
+pip install tensorflow-gpu==2.3.0 scipy skimage tqdm
 ```
 This software was not tested on **Mac OS** but theoretically it should run smoothly independent of the OS.
 After the installation of packages is complete, you can clone this repository to your machine using:
