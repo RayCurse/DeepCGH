@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deepcgh"
+version = "0.0.7"
+authors = [
+  { name="Hossein Eybposh", email="m.h.eybpoosh@gmail.com" },
+]
+description = "3D computer generated holography using deep learning"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "tensorflow>=2.0.0",
+    "h5py~=3.7.0",
+    "scipy~=1.9.3",
+    "scikit-image==0.19.2",
+    "tqdm",
+]
+classifiers = [
+    'Environment :: Console',
+    "Programming Language :: Python :: 3",
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+    'Intended Audience :: Science/Research',
+    'Topic :: Scientific/Engineering',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/UNC-optics/DeepCGH"
+"Bug Tracker" = "https://github.com/UNC-optics/DeepCGH/issues"

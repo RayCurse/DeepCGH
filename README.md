@@ -1,4 +1,4 @@
-![header](./header.png)
+![header](https://raw.githubusercontent.com/UNC-optics/DeepCGH/master/header.png)
 
 
 # DeepCGH: 3D computer generated holography using deep learning
