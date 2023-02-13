@@ -15,6 +15,7 @@ dependencies = [
     "tensorflow>=2.0.0",
     "scipy~=1.9.3",
     "scikit-image==0.19.2",
+    "matplotlib",
     "tqdm",
 ]
 classifiers = [
@@ -29,3 +30,7 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/UNC-optics/DeepCGH"
 "Bug Tracker" = "https://github.com/UNC-optics/DeepCGH/issues"
+
+[project.scripts]
+deepcgh-demo = "demo_deepcgh:main"
+deepdcgh-demo = "demo_deepdcgh:main"

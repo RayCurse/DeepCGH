@@ -721,7 +721,7 @@ class DeepDCGH(object):
                 elif mode == tf.estimator.ModeKeys.TRAIN:
                     train_op = None
                     
-                    opt = tf.keras.optimizers.Adam(learning_rate=self.lr)
+                    opt = tf.keras.optimizers.legacy.Adam(learning_rate=self.lr)
                     
                     opt.iterations = tf.compat.v1.train.get_or_create_global_step()
                     
@@ -1094,7 +1094,7 @@ class DeepCGH(object):
                 elif mode == tf.estimator.ModeKeys.TRAIN:
                     train_op = None
                     
-                    opt = tf.keras.optimizers.Adam(learning_rate=self.lr)
+                    opt = tf.keras.optimizers.legacy.Adam(learning_rate=self.lr)
                     
                     opt.iterations = tf.compat.v1.train.get_or_create_global_step()
                     
